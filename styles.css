@@ -1,0 +1,149 @@
+/* Variables section */
+:root{
+    --p: 7% 15%;
+    --x: #ff4c68;
+    --x2: #ef8172;
+    --x3: #fff;
+    --x4: #8f8f8f;
+    --x5: whitesmoke;
+    --fs: 3rem;
+    --p-pc: 3% 2%;
+    --c: center;
+    --l: left;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    text-align: var(--c);
+}
+/* Title section */
+#title{
+    background-color: var(--x);
+    text-align: var(--l);
+}
+.title-title{
+    font-size: var(--fs);
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: var(--p);
+}
+#title.container-fluid{
+    padding: 3% 15% 7% 15%;
+}
+/* navigation bar */
+.navbar-brand{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.nav-link{
+    color: var(--x5);
+    font-size: 16px;
+    opacity: 0.5;
+    font-weight: 100;
+}
+.nav-link:hover{
+    color: var(--x3);
+    transition: 0.5 ease-in-out;
+    opacity: 1;
+}
+.navbar{
+    padding-bottom: var(--fs);
+}
+/* button */
+.b{
+    margin: 5% 3% 5% 0;
+}
+p{
+    color: var(--x4);
+}
+/* imAgES */
+.img{
+    width: 70%;
+}
+.divimg{
+    display: flex;
+    align-items: center;
+    justify-content: right ;
+}
+/* FEATURES section */
+#features{
+    background-color: var(--x3);
+}
+h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+.feature-box{  
+   font-size: 15px;
+   padding: 5%;
+   
+}
+.feature-icon{
+    color: var(--x2);
+}
+.feature-icon:hover{
+    color: var(--x);
+}
+
+/* Testimonial section */
+#testimonials{
+   background-color: var(--x2);
+   color: var(--x3);
+}
+.h{
+    font-family: monospace;
+    font-weight: bold;
+    line-height: 1;
+    font-size: 2.5rem;
+}
+.test-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/* PRESS */
+#press{
+   background-color: var(--x2);
+   padding-bottom: 3%;
+
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 20px 50px;
+}
+
+/* pricing section */
+.price-card{
+    padding: var(--p-pc);
+} 
+
+/* call-to-action-section-cta */
+#cta{
+    background-color: var(--x);
+}
+.cta-text{
+    font-size: var(--fs);
+    color: var(--x3);
+    padding: 3%;
+}
+/* Footer */
+#footer{
+    background-color: var(--x3);
+}
+.footer-icon{
+    padding: 1%;
+}
+.footer-icon:hover{
+    color: var(--x);
+}
+/* @media */
+@media (max-width: 1026px){
+    .img{
+        width: 95%;
+    }
+#title{
+    text-align: var(--c);
+}
+}
