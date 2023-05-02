@@ -139,11 +139,14 @@ h3{
     color: var(--x);
 }
 /* @media */
-@media (max-width: 1026px){
+@media (max-width: 1000px){
     .img{
         width: 95%;
     }
 #title{
     text-align: var(--c);
+}
+#title.container-fluid{
+    padding: 3% 10% 7% 10%;
 }
 }
